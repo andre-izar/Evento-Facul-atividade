@@ -47,7 +47,7 @@ header{
 }
 
 #navbar img{
-    width: 120px;
+    width: 100px;
 }
 
 #navbar{
@@ -75,7 +75,7 @@ header{
 }
 
 #search-container h1{
-    color: white;
+    color: #F2A340;
     margin-bottom: 30px;
     font-weight: 900;
 }

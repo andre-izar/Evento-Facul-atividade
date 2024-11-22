@@ -7,7 +7,11 @@
 <div id="search-container" class="col-md-12">
     <h1> Busque um evento </h1>
     <form action="/" method="GET">
+        @csrf
+        <div id="search-container-bar">
         <input type="text" id="search" name="search" class="form-control" placeholder="Procurar...">
+        <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+        </div>
     </form>    
 </div>
 <div id="events-container" class="col-md-12">
